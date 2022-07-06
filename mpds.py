@@ -1,6 +1,8 @@
 import sys
 from os import system
 
+assert len(sys.argv) == 6, "Usage: python mpds.py path-to-graph path-to-output number-of-samples number-of-subgraphs notion-of-density"
+
 graph = sys.argv[1]
 output = sys.argv[2]
 theta = int(sys.argv[3])
