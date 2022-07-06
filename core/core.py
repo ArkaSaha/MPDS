@@ -2,6 +2,7 @@ from os import system, path
 from collections import deque
 import sys
 
+assert len(sys.argv) == 4, "Usage: python core/core.py path-to-graph path-to-output eta"
 dataset = sys.argv[1]
 output = sys.argv[2]
 eta = sys.argv[3]
