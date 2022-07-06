@@ -1,6 +1,8 @@
 import sys
 from os import system, popen
 
+assert len(sys.argv) == 6, "Usage: python nds.py path-to-graph path-to-output number-of-samples containment-probability-threshold notion-of-density"
+
 graph = sys.argv[1]
 output = sys.argv[2]
 theta = int(sys.argv[3])
