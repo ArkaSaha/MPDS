@@ -38,15 +38,16 @@ Here we show the commands for returning existing dense subgraphs: EDS, core and 
 
 #### EDS
 ```bash
-python existing/eds.py path-to-graph path-to-output
+g++ -O3 -std=c++11 -o eds eds.cpp
+./eds path-to-graph path-to-output
 ```
 
 #### Core
 ```bash
-python existing/core.py path-to-graph path-to-output eta
+python core/core.py path-to-graph path-to-output eta
 ```
 
 #### Truss
 ```bash
-python existing/truss.py path-to-graph path-to-output gamma
+python truss/truss.py path-to-graph path-to-output gamma
 ```
