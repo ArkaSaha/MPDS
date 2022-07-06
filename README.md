@@ -4,7 +4,7 @@ This repository contains the code used in the experiments of our paper titled _M
 
 ## Data
 
-The datasets used in our paper are available (here)[https://drive.google.com/drive/folders/14uzqpv-P0qc9jmxqoZvn14TZrAOAIqss?usp=sharing]. Each dataset is in a text file whose first line contains a single integer `n` denoting the number of nodes, followed by lines of the form `u v p`, each denoting an edge `(u, v)` with probability `p`.
+The datasets used in our paper are available [here](https://drive.google.com/drive/folders/14uzqpv-P0qc9jmxqoZvn14TZrAOAIqss?usp=sharing). Each dataset is in a text file whose first line contains a single integer `n` denoting the number of nodes, followed by lines of the form `u v p`, each denoting an edge `(u, v)` with probability `p`.
 
 ## Code Usage
 
