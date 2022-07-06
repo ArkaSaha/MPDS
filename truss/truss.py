@@ -2,6 +2,7 @@ from os import system, path
 import sys
 from collections import deque
 
+assert len(sys.argv) == 4, "Usage: python truss/truss.py path-to-graph path-to-output gamma"
 dataset = sys.argv[1][:-4]
 output = sys.argv[2]
 gamma = sys.argv[3]
