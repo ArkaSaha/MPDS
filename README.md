@@ -12,7 +12,7 @@ We show the commands needed to run our various experiments with our provided cod
 
 ### Our Proposed Dense Subgraphs
 
-Here we show the commands for returning our proposed dense subgraphs: MPDS and NDS. In each case, the parameter `notion-of-density` can take one of the values `edge`, `clique` and `pattern`, denoting the notion of density. Additional required parameters are `h` for clique density (taking one of the values `3`, `4` and `5`) and `psi` for pattern density (taking one of the values `2-star`, `3-star`, `c3-star` and `diamond`); they are taken as input from the user at runtime. The output written to the specified file consists of subgraphs, one per line, containing the space-separated node set followed by the relevant metric (mentioned below). The running times are displayed on the standard output when the commands are run.
+Here we show the commands for returning our proposed dense subgraphs: MPDS and NDS. In each case, the parameter `notion-of-density` can take one of the values `edge`, `clique` and `pattern`, denoting the notion of density. Additional required parameters are `h` (`3`, `4` or `5`) for clique density, `psi` (`2-star`, `3-star`, `c3-star` or `diamond`) and `heuristic` (`yes` or `no`) for pattern density; they are taken as input from the user at runtime. The output written to the specified file consists of subgraphs, one per line, containing the space-separated node set followed by the relevant metric (mentioned below). The running times are displayed on the standard output when the commands are run.
 
 #### MPDS
 ```bash
